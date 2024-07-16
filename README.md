@@ -2,6 +2,7 @@
  -> I wrote this for educational purposes only 
 
 ### also replace this :
+```in .asm file
 SetValue PROC
     mov rdi,rcx
     ret
@@ -14,7 +15,7 @@ NtCreateSection PROC
     syscall
     ret
 NtCreateSection ENDP
-
+```
  
 # Direct syscall in other way 
 - Calculating SSN in run time and syscall
